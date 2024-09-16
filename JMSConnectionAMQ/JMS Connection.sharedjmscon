@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BWSharedResource>
+    <name>JMS Connection</name>
+    <resourceType>ae.shared.JMSConnectionKey</resourceType>
+    <config>
+        <NamingEnvironment>
+            <UseJNDI>true</UseJNDI>
+            <ProviderURL>tcp://localhost:7222</ProviderURL>
+            <NamingURL>tcp://amqserver:61616?sslEnabled=true&amp;keyStorePath=D:/PKI/client.jks&amp;keyStorePassword=password&amp;trustStorePath=D:/PKI/trust.jks&amp;trustStorePassword=password</NamingURL>
+            <NamingInitialContextFactory>org.apache.activemq.artemis.jndi.ActiveMQInitialContextFactory</NamingInitialContextFactory>
+            <TopicFactoryName>TopicConnectionFactory</TopicFactoryName>
+            <QueueFactoryName>QueueConnectionFactory</QueueFactoryName>
+            <NamingPrincipal/>
+            <NamingCredential/>
+        </NamingEnvironment>
+        <ConnectionAttributes>
+            <username>bwclient</username>
+            <password>#!DCYoLi+5hC9FRb4YnZR7g18EnTHHeDsgOQ9/IaIjmVc=</password>
+            <clientID/>
+            <autoGenClientID>true</autoGenClientID>
+        </ConnectionAttributes>
+        <UseXACF>false</UseXACF>
+    </config>
+</BWSharedResource>
