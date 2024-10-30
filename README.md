@@ -1,1 +1,2 @@
-# bw5-amq
+# How to connect to Red Hat AMQ over TLS in TIBCO ActiveMatrix BusinessWorks™ 5
+Project accompanying the article [How to connect to Red Hat AMQ over TLS in TIBCO ActiveMatrix BusinessWorks™ 5](https://community.tibco.com/articles/37_tibco-platform/40_integration/53_businessworks/how-to-connect-to-red-hat-amq-over-tls-in-tibco-activematrix-businessworks5/) in [TIBCO Community](https://community.tibco.com).
